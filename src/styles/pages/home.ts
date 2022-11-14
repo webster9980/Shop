@@ -7,7 +7,7 @@ export const HomeContainer = styled('main', {
     maxWidth: 'calc(100vw - ((100vh - 1180px) / 2)',
     minHeight: 656,
     marginLeft: 'auto',
-})
+});
 
 export const Product = styled('a', {
     background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
@@ -45,6 +45,7 @@ export const Product = styled('a', {
 
         strong: {
             fontSize: '$lg',
+            color: '$gray100'
         },
 
         span: {
@@ -62,4 +63,4 @@ export const Product = styled('a', {
         }
     }
 
-})
+});

@@ -28,4 +28,4 @@ export const {
             '2xl': '2rem,'
         },
     }
-})
+});
